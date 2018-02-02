@@ -12,25 +12,26 @@ using namespace std;
 
 void Controller :: start()
 {
-    Timer codeTimer;
-    codeTimer.startTimer();
-    cout << "Look! Code! On the screen!" << endl;
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
-    codeTimer.resetTimer();
-    codeTimer.startTimer();
-
-    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Data/crime.csv");
-
-    for(int index = 200; index < 216; index ++)
-    {
-        cout << index << " is " << myData[index] << endl;
-    }
-    
-    
-    codeTimer.stopTimer();
-    codeTimer.displayInformation();
-    
+    findMaxandMin();
+//    Timer codeTimer;
+//    codeTimer.startTimer();
+//    cout << "Look! Code! On the screen!" << endl;
+//    codeTimer.stopTimer();
+//    codeTimer.displayInformation();
+//    codeTimer.resetTimer();
+//    codeTimer.startTimer();
+//
+//    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Data/crime.csv");
+//
+//    for(int index = 200; index < 216; index ++)
+//    {
+//        cout << index << " is " << myData[index] << endl;
+//    }
+//    
+//
+//    codeTimer.stopTimer();
+//    codeTimer.displayInformation();
+//
 }
 
 void Controller :: findMaxandMin()
@@ -44,11 +45,11 @@ void Controller :: findMaxandMin()
     
     for (int index = 1; index < myData.size(); index ++)
     {
-        if (myData [minIndex] < myData [index])
+        if (myData [minIndex] >  myData [index])
         {
             minIndex = index;
         }
-        if (myData [maxIndex] < myData [index])
+        else if (myData [maxIndex] < myData [index])
         {
             maxIndex = index;
         }
