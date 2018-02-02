@@ -9,7 +9,7 @@
 #ifndef Array_hpp
 #define Array_hpp
 
-#include <stdio.h>
+
 
 #include <assert.h>
 #include <iostream>

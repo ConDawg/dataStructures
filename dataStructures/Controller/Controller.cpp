@@ -13,6 +13,8 @@ using namespace std;
 void Controller :: start()
 {
     findMaxandMin();
+    
+    testArray();
 //    Timer codeTimer;
 //    codeTimer.startTimer();
 //    cout << "Look! Code! On the screen!" << endl;
