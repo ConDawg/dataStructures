@@ -16,8 +16,11 @@
 
 class Controller
 {
+private:
+    void findMaxandMin();
+    
 public:
     void start();
-    
+
 };
 #endif /* Controller_hpp*/

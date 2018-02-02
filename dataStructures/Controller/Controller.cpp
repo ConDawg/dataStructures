@@ -32,3 +32,30 @@ void Controller :: start()
     codeTimer.displayInformation();
     
 }
+
+void Controller :: findMaxandMin()
+{
+    Timer searchTimer;
+    searchTimer.startTimer();
+    vector<CrimeData> myData = FileController :: readCrimeDataToVector("/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Data/crime.csv");
+    
+    int minIndex = 0;
+    int maxIndex = 0;
+    
+    for (int index = 1; index < myData.size(); index ++)
+    {
+        if (myData [minIndex] < myData [index])
+        {
+            minIndex = index;
+        }
+        if (myData [maxIndex] < myData [index])
+        {
+            maxIndex = index;
+        }
+    }
+    searchTimer.stopTimer();
+    cout << "The smallest Crime stat at " << minIndex << " and it is: " << myData[minIndex] << endl;
+    cout << "The largest Crime stat is at " << maxIndex << myData[maxIndex] << endl;
+    searchTimer.displayInformation();
+}
+
