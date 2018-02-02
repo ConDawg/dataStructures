@@ -36,6 +36,17 @@ void Controller :: start()
 //
 }
 
+void Controller :: testArray()
+{
+    Array<int>connorArray(7);
+    
+    connorArray[0] = 123;
+    connorArray.setAtIndex(0, 321);
+    
+    cout << connorArray[0] << endl;
+}
+
+
 void Controller :: findMaxandMin()
 {
     Timer searchTimer;
