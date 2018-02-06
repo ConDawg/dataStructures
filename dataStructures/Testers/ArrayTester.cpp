@@ -36,3 +36,8 @@ void ArrayTester :: testArrayUse()
     thirdArray[5] = 123;
     cout << thirdArray[5] << endl;
 }
+
+void ArrayTester :: testAdvancedArray()
+{
+    
+}

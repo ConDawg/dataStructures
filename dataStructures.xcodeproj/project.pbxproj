@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA7C87FB2024EDD2000575E8 /* Array.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA7C87F92024EDD2000575E8 /* Array.cpp */; };
 		AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959819202A33AD00F30EE7 /* ArrayTester.cpp */; };
 		AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C22022440F0092AEA5 /* Controller.cpp */; };
 		AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C52022441C0092AEA5 /* Runner.cpp */; };
@@ -29,7 +28,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		AA7C87F92024EDD2000575E8 /* Array.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Array.cpp; sourceTree = "<group>"; };
 		AA7C87FA2024EDD2000575E8 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		AA959819202A33AD00F30EE7 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		AA95981A202A33AD00F30EE7 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
@@ -68,7 +66,6 @@
 		AA7C87F82024EDB6000575E8 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				AA7C87F92024EDD2000575E8 /* Array.cpp */,
 				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
 			);
 			path = Structures;
@@ -205,7 +202,6 @@
 				AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */,
 				AAFE68D220224FD20092AEA5 /* FileController.cpp in Sources */,
 				AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */,
-				AA7C87FB2024EDD2000575E8 /* Array.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
