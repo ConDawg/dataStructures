@@ -5,6 +5,8 @@
 //  Created by Johnson, Connor on 2/2/18.
 //  Copyright © 2018 CTEC. All rights reserved.
 //
+// c++ arrays are pointers of that type
+
 
 #ifndef Array_hpp
 #define Array_hpp
@@ -61,7 +63,9 @@ Array<Type> :: Array(const Array<Type> & toCopy)
 template <class Type>
 Array<Type> :: ~Array()
 {
+    cout << "About to delete the structure" << endl;
     delete [] internalArray;
+    cout << "Internal array deleted" << endl;
 }
 
 template <class Type>
@@ -98,6 +102,7 @@ Type Array<Type> :: operator [] (int index) const
     return internalArray[index];
 }
 
+//BASIC
 template <class Type>
 int Array<Type> :: getSize() const
 {
