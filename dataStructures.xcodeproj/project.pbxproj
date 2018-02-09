@@ -10,6 +10,7 @@
 		AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959819202A33AD00F30EE7 /* ArrayTester.cpp */; };
 		AA95981F202A441E00F30EE7 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA95981D202A441E00F30EE7 /* Node.cpp */; };
 		AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959820202A470300F30EE7 /* LinearNode.cpp */; };
+		AA9FF5D1202CE1AA00E7E53A /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA9FF5CF202CE1AA00E7E53A /* List.cpp */; };
 		AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C22022440F0092AEA5 /* Controller.cpp */; };
 		AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C52022441C0092AEA5 /* Runner.cpp */; };
 		AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C7202246D10092AEA5 /* Timer.cpp */; };
@@ -37,6 +38,8 @@
 		AA95981E202A441E00F30EE7 /* Node.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Node.hpp; sourceTree = "<group>"; };
 		AA959820202A470300F30EE7 /* LinearNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinearNode.cpp; sourceTree = "<group>"; };
 		AA959821202A470300F30EE7 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
+		AA9FF5CF202CE1AA00E7E53A /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
+		AA9FF5D0202CE1AA00E7E53A /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		AAFE68B7202243600092AEA5 /* dataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFE68C22022440F0092AEA5 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		AAFE68C32022440F0092AEA5 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
+				AA9FF5CF202CE1AA00E7E53A /* List.cpp */,
+				AA9FF5D0202CE1AA00E7E53A /* List.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -214,6 +219,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA9FF5D1202CE1AA00E7E53A /* List.cpp in Sources */,
 				AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */,
 				AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */,
 				AA95981F202A441E00F30EE7 /* Node.cpp in Sources */,
