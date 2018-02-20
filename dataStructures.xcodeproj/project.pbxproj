@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA5F8EF0203CA24700C629F9 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */; };
 		AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959819202A33AD00F30EE7 /* ArrayTester.cpp */; };
 		AA95981F202A441E00F30EE7 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA95981D202A441E00F30EE7 /* Node.cpp */; };
 		AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959820202A470300F30EE7 /* LinearNode.cpp */; };
@@ -31,6 +32,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
+		AA5F8EEF203CA24700C629F9 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		AA7C87FA2024EDD2000575E8 /* Array.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Array.hpp; sourceTree = "<group>"; };
 		AA959819202A33AD00F30EE7 /* ArrayTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ArrayTester.cpp; sourceTree = "<group>"; };
 		AA95981A202A33AD00F30EE7 /* ArrayTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ArrayTester.hpp; sourceTree = "<group>"; };
@@ -79,6 +82,8 @@
 				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
 				AA9FF5CF202CE1AA00E7E53A /* List.cpp */,
 				AA9FF5D0202CE1AA00E7E53A /* List.hpp */,
+				AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */,
+				AA5F8EEF203CA24700C629F9 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
@@ -221,6 +226,7 @@
 			files = (
 				AA9FF5D1202CE1AA00E7E53A /* List.cpp in Sources */,
 				AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */,
+				AA5F8EF0203CA24700C629F9 /* LinkedList.cpp in Sources */,
 				AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */,
 				AA95981F202A441E00F30EE7 /* Node.cpp in Sources */,
 				AAFE68ED202255EB0092AEA5 /* CrimeData.cpp in Sources */,
