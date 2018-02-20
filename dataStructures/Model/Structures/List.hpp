@@ -12,7 +12,7 @@
 #include <stdio.h>
 #include <assert.h>
 #include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Model/Node/LinearNode.hpp"
-
+template <class Type>
 class List
 {
 protected:
