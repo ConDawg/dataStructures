@@ -12,9 +12,13 @@ using namespace std;
 
 void Controller :: start()
 {
-    findMaxandMin();
     
-    testArray();
+    LinkedListTester linkTest;
+    linkTest.testListBasics();
+    linkTest.testListWithData();
+//    findMaxandMin();
+//
+//    testArray();
 //    Timer codeTimer;
 //    codeTimer.startTimer();
 //    cout << "Look! Code! On the screen!" << endl;

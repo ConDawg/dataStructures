@@ -16,13 +16,14 @@
 #include <iostream>
 #include <vector>
 #include <sstream>
-
+#include "LinkedList.hpp"
 using namespace std;
 
 class FileController
 {
 public:
     static vector<CrimeData> readCrimeDataToVector(string filename);
+    static LinkedList<CrimeData> readDataToList(string filename);
 };
 
 #endif /* FileController_hpp */

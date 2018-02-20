@@ -54,7 +54,7 @@ void LinkedListTester :: testListBasics()
     cout << numbers.getEnd()->getData()<< " is at the end of the list and should be 32567" << endl;
 }
 
-void LinkListTester :: testWithData()
+void LinkedListTester :: testListWithData()
 {
     Timer listTimer;
     
