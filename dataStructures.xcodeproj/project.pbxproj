@@ -33,6 +33,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA3D4C64203F4A2700BADF21 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
+		AA3D4C67203F4DD400BADF21 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedList.cpp; sourceTree = "<group>"; };
 		AA5F8EEF203CA24700C629F9 /* LinkedList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinkedList.hpp; sourceTree = "<group>"; };
 		AA5F8EF1203CAEFD00C629F9 /* LinkedListTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LinkedListTester.cpp; sourceTree = "<group>"; };
@@ -70,6 +72,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AA3D4C62203F496000BADF21 /* Linear */ = {
+			isa = PBXGroup;
+			children = (
+				AA9FF5D0202CE1AA00E7E53A /* List.hpp */,
+				AA5F8EEF203CA24700C629F9 /* LinkedList.hpp */,
+				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
+				AA3D4C64203F4A2700BADF21 /* Stack.hpp */,
+				AA3D4C67203F4DD400BADF21 /* Queue.hpp */,
+			);
+			path = Linear;
+			sourceTree = "<group>";
+		};
 		AA7C87F72024ED8F000575E8 /* Model */ = {
 			isa = PBXGroup;
 			children = (
@@ -82,11 +96,9 @@
 		AA7C87F82024EDB6000575E8 /* Structures */ = {
 			isa = PBXGroup;
 			children = (
-				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
+				AA3D4C62203F496000BADF21 /* Linear */,
 				AA9FF5CF202CE1AA00E7E53A /* List.cpp */,
-				AA9FF5D0202CE1AA00E7E53A /* List.hpp */,
 				AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */,
-				AA5F8EEF203CA24700C629F9 /* LinkedList.hpp */,
 			);
 			path = Structures;
 			sourceTree = "<group>";
