@@ -8,7 +8,7 @@
 
 #include "LinkedListTester.hpp"
 #include <stdio.h>
-#include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Model/Structures/LinkedList.hpp"
+#include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Model/Structures/Linear/LinkedList.hpp"
 #include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Controller/FileController.hpp"
 #include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Controller/Tools/Timer.hpp"
 #include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Controller/Tools/Timer.hpp"

@@ -13,6 +13,7 @@
 		AA95981F202A441E00F30EE7 /* Node.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA95981D202A441E00F30EE7 /* Node.cpp */; };
 		AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959820202A470300F30EE7 /* LinearNode.cpp */; };
 		AA9FF5D1202CE1AA00E7E53A /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA9FF5CF202CE1AA00E7E53A /* List.cpp */; };
+		AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE4BCF9204490EF00890379 /* DoubleNode.cpp */; };
 		AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C22022440F0092AEA5 /* Controller.cpp */; };
 		AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C52022441C0092AEA5 /* Runner.cpp */; };
 		AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C7202246D10092AEA5 /* Timer.cpp */; };
@@ -48,6 +49,8 @@
 		AA959821202A470300F30EE7 /* LinearNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LinearNode.hpp; sourceTree = "<group>"; };
 		AA9FF5CF202CE1AA00E7E53A /* List.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = List.cpp; sourceTree = "<group>"; };
 		AA9FF5D0202CE1AA00E7E53A /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
+		AAE4BCF9204490EF00890379 /* DoubleNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleNode.cpp; sourceTree = "<group>"; };
+		AAE4BCFA204490EF00890379 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		AAFE68B7202243600092AEA5 /* dataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFE68C22022440F0092AEA5 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		AAFE68C32022440F0092AEA5 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -121,6 +124,8 @@
 				AA95981E202A441E00F30EE7 /* Node.hpp */,
 				AA959820202A470300F30EE7 /* LinearNode.cpp */,
 				AA959821202A470300F30EE7 /* LinearNode.hpp */,
+				AAE4BCF9204490EF00890379 /* DoubleNode.cpp */,
+				AAE4BCFA204490EF00890379 /* DoubleNode.hpp */,
 			);
 			path = Node;
 			sourceTree = "<group>";
@@ -245,6 +250,7 @@
 				AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */,
 				AA5F8EF0203CA24700C629F9 /* LinkedList.cpp in Sources */,
 				AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */,
+				AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */,
 				AA95981F202A441E00F30EE7 /* Node.cpp in Sources */,
 				AAFE68ED202255EB0092AEA5 /* CrimeData.cpp in Sources */,
 				AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */,
