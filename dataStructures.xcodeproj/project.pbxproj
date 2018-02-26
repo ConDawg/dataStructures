@@ -14,6 +14,7 @@
 		AA959822202A470300F30EE7 /* LinearNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA959820202A470300F30EE7 /* LinearNode.cpp */; };
 		AA9FF5D1202CE1AA00E7E53A /* List.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA9FF5CF202CE1AA00E7E53A /* List.cpp */; };
 		AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE4BCF9204490EF00890379 /* DoubleNode.cpp */; };
+		AAE4BCFE20449A2300890379 /* CircularList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE4BCFC20449A2300890379 /* CircularList.cpp */; };
 		AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C22022440F0092AEA5 /* Controller.cpp */; };
 		AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C52022441C0092AEA5 /* Runner.cpp */; };
 		AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAFE68C7202246D10092AEA5 /* Timer.cpp */; };
@@ -51,6 +52,8 @@
 		AA9FF5D0202CE1AA00E7E53A /* List.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = List.hpp; sourceTree = "<group>"; };
 		AAE4BCF9204490EF00890379 /* DoubleNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleNode.cpp; sourceTree = "<group>"; };
 		AAE4BCFA204490EF00890379 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
+		AAE4BCFC20449A2300890379 /* CircularList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularList.cpp; sourceTree = "<group>"; };
+		AAE4BCFD20449A2300890379 /* CircularList.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CircularList.hpp; sourceTree = "<group>"; };
 		AAFE68B7202243600092AEA5 /* dataStructures */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = dataStructures; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAFE68C22022440F0092AEA5 /* Controller.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Controller.cpp; sourceTree = "<group>"; };
 		AAFE68C32022440F0092AEA5 /* Controller.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Controller.hpp; sourceTree = "<group>"; };
@@ -83,6 +86,8 @@
 				AA7C87FA2024EDD2000575E8 /* Array.hpp */,
 				AA3D4C64203F4A2700BADF21 /* Stack.hpp */,
 				AA3D4C67203F4DD400BADF21 /* Queue.hpp */,
+				AAE4BCFC20449A2300890379 /* CircularList.cpp */,
+				AAE4BCFD20449A2300890379 /* CircularList.hpp */,
 			);
 			path = Linear;
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */,
 				AA95981F202A441E00F30EE7 /* Node.cpp in Sources */,
 				AAFE68ED202255EB0092AEA5 /* CrimeData.cpp in Sources */,
+				AAE4BCFE20449A2300890379 /* CircularList.cpp in Sources */,
 				AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */,
 				AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */,
 				AA5F8EF3203CAEFD00C629F9 /* LinkedListTester.cpp in Sources */,
