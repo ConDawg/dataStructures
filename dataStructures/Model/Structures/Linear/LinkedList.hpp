@@ -33,10 +33,7 @@ public:
     virtual void addAtIndex(int index, Type item);
     virtual Type getFromIndex(int index);
     virtual Type remove(int index);
-//    void add(Type item);
-//    void addAtIndex(int index, Type item);
-//    Type getFromIndex(int index);
-//    Type remove(int index);
+    
 };
 template <class Type>
 LinkedList<Type> :: LinkedList()

@@ -30,7 +30,7 @@ public:
     void addAtIndex(int index, Type data);
     Type getFromIndex(int index);
     Type remove(int index);
-}
+};
 
 template <class Type>
 Queue<Type> :: Queue() : LinkedList<Type>()
@@ -43,7 +43,7 @@ Queue<Type> :: ~Queue()
 {
     for(LinearNode<Type> * removed = this->front; removed != nullptr; removed = this->front)
     {
-        this->front = removed->getNode();
+        this->front = removed->getNextNode();
         delete removed;
     }
 }
@@ -119,7 +119,7 @@ Type Queue<Type> :: peek()
     return this->getFront()->getData();
 }
 
-template <classType>
+template <class Type>
 Type Queue<Type> :: getFromIndex(int index)
 {
     assert(index == 0);
