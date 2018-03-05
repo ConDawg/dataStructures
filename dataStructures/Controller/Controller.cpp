@@ -12,10 +12,15 @@ using namespace std;
 
 void Controller :: start()
 {
+    RecursionTester test;
+    test.testRecursionNumebers();
+    test.testRecursionString();
     
-    LinkedListTester linkTest;
-    linkTest.testListBasics();
-    linkTest.testListWithData();
+    
+    
+//    LinkedListTester linkTest;
+//    linkTest.testListBasics();
+//    linkTest.testListWithData();
 //    findMaxandMin();
 //
 //    testArray();
