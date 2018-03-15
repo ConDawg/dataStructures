@@ -48,6 +48,6 @@ void RecursionTester :: testRecursionNumebers()
 void RecursionTester :: testRecursionString()
 {
     cout << mystery("X") << endl;
-    cout << mystery("Idareya") << endl;
+    cout << mystery("car") << endl;
     cout << mystery("apple") << endl;
 }
