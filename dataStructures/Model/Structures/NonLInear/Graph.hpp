@@ -20,7 +20,7 @@ template <class Type>
 class Graph
 {
 private:
-    static const int MAXIMUM = 20;
+    static const int MAXIMUM = 50;
     bool adjacencyMatrix [MAXIMUM][MAXIMUM];
     int weightCostMatrix [MAXIMUM][MAXIMUM];
     Type graphData[MAXIMUM];
@@ -228,7 +228,8 @@ int Graph<Type> :: costTraversal(Graph<Type> & currentGraph, int vertex)
     vertexQueue.push(vertex);
     while(!vertexQueue.empty())
     {
-        connections = currentGraph.neighbors(vertexQueue.front());
+        int currentIndex = vertexQueue.front();
+        connections = currentGraph.neighbors(currentIndex);
         vertexQueue.pop();
         
         for(setIterator = connections.begin(); setIterator != connections.end(); setIterator++)
