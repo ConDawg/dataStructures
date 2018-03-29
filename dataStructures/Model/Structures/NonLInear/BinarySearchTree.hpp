@@ -80,7 +80,7 @@ void BinarySearchTree<Type> :: insert (Type itemToInsert)
             previous = current;
             if(itemToInsert < current->getData())
             {
-                current = current->getLeftNode();
+                current = current->getLeft();
             }
             else
             {
@@ -207,9 +207,9 @@ void BinarySearchTree<Type> :: inOrderTraversal(BinaryTreeNode<Type> * inStart)
 {
     if(inStart != nullptr)
     {
-        inOrderTraversal(inStart->getLeftNode());
+        inOrderTraversal(inStart->getLeft());
         cout << inStart->getData() << endl;
-        inOrderTraversal(inStart->getRightNode());
+        inOrderTraversal(inStart->getRight());
     }
 }
 
@@ -225,10 +225,10 @@ void BinarySearchTree<Type> :: demoTraversalSteps(BinaryTreeNode<Type> * start)
     if(start != nullptr)
     {
         (cout << "check if left is here") << endl;
-        demoTraversalSteps(start->getLeftNode());
+        demoTraversalSteps(start->getLeft());
         cout << "at root" << endl;
         cout << "check if right is here" << endl;
-        demoTraversalSteps(start->getRightNode());
+        demoTraversalSteps(start->getRight());
     }
 }
 
