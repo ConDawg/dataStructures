@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA1D7C2A20866B5500672678 /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA1D7C2820866B5500672678 /* AVLTree.cpp */; };
 		AA49CF1E2065736C00F55D37 /* GraphTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA49CF1C2065736B00F55D37 /* GraphTester.cpp */; };
 		AA5F8EF0203CA24700C629F9 /* LinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5F8EEE203CA24700C629F9 /* LinkedList.cpp */; };
 		AA5F8EF3203CAEFD00C629F9 /* LinkedListTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AA5F8EF1203CAEFD00C629F9 /* LinkedListTester.cpp */; };
@@ -41,6 +42,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA1D7C2820866B5500672678 /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
+		AA1D7C2920866B5500672678 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		AA3D4C64203F4A2700BADF21 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
 		AA3D4C67203F4DD400BADF21 /* Queue.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Queue.hpp; sourceTree = "<group>"; };
 		AA49CF1C2065736B00F55D37 /* GraphTester.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = GraphTester.cpp; sourceTree = "<group>"; };
@@ -189,6 +192,8 @@
 		AAFE68AE202243600092AEA5 = {
 			isa = PBXGroup;
 			children = (
+				AA1D7C2820866B5500672678 /* AVLTree.cpp */,
+				AA1D7C2920866B5500672678 /* AVLTree.hpp */,
 				AAFE68B9202243600092AEA5 /* dataStructures */,
 				AAFE68B8202243600092AEA5 /* Products */,
 			);
@@ -318,6 +323,7 @@
 				AAFE68C42022440F0092AEA5 /* Controller.cpp in Sources */,
 				AAD52E2920473EA300E91796 /* TestingStacksAndQueues.cpp in Sources */,
 				AAFE68C62022441C0092AEA5 /* Runner.cpp in Sources */,
+				AA1D7C2A20866B5500672678 /* AVLTree.cpp in Sources */,
 				AA5F8EF3203CAEFD00C629F9 /* LinkedListTester.cpp in Sources */,
 				AAFE68D220224FD20092AEA5 /* FileController.cpp in Sources */,
 				AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */,

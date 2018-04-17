@@ -84,4 +84,10 @@ void BinaryTreeNode<Type> :: setLeftNode(BinaryTreeNode<Type> *)
 {
     
 }
+
+
+
+
+
+
 #endif /* BinaryTreeNode_hpp */
