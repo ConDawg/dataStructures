@@ -38,6 +38,54 @@ public:
 template<class Type>
 int AVLTree<Type> :: heightDifference(BinaryTreeNode<Type> * node)
 {
-
+    int balance;
+    int leftHeight = this->calculateHeight(node->getLeftNode());
+    int rightHeight = this->calculateHeight(node->getRightNode());
+    balance = leftHeight - rightHeight;
+    return balance;
 }
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: leftRotation (BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changeNode;
+    changeNode = parent -> getLeftNode();
+    
+    parent -> setLeftChild(parent);
+    
+    return changeNode;
+}
+
+template <class Type>
+BinaryTreeNode<Type> * AVLTree<Type> :: rightRotation (BinaryTreeNode<Type> * parent)
+{
+    BinaryTreeNode<Type> * changedNode;
+    changedNode = parent->getRightNoce();
+    
+    parent ->setRightChild(changedNode->getLeftNode());
+    
+    changedNode->setLeftChild(parent);
+    
+    return changedNode;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif /* AVLTree_hpp */
