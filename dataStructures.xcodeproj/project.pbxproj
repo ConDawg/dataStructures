@@ -42,6 +42,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AA14C8A9208E50DA002C47F3 /* N_AryTreeNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = N_AryTreeNode.hpp; sourceTree = "<group>"; };
 		AA1D7C2820866B5500672678 /* AVLTree.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
 		AA1D7C2920866B5500672678 /* AVLTree.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
 		AA3D4C64203F4A2700BADF21 /* Stack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Stack.hpp; sourceTree = "<group>"; };
@@ -167,6 +168,7 @@
 				AAE4BCFA204490EF00890379 /* DoubleNode.hpp */,
 				AA97AEC2206AC11300F65C12 /* BinaryTreeNode.cpp */,
 				AA97AEC3206AC11300F65C12 /* BinaryTreeNode.hpp */,
+				AA14C8A9208E50DA002C47F3 /* N_AryTreeNode.hpp */,
 			);
 			path = Node;
 			sourceTree = "<group>";
