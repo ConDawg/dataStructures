@@ -15,7 +15,7 @@
 using namespace std;
 
 template <class Type>
-class N_AryTreeNode : public node<Type>
+class N_AryTreeNode : public Node<Type>
 {
 private:
     vector<N_AryTreeNode<Type>*> nodes;
@@ -37,20 +37,50 @@ public:
 template <class Type>
 N_AryTreeNode<Type> :: N_AryTreeNode()
 {
-        
-}
     
+}
+
 template <class Type>
 N_AryTreeNode<Type> :: N_AryTreeNode(Type data) : Node<Type>(data)
 {
-        
-}
     
+}
+
 template <class Type>
 {
-    for (int index = nodes.size() - 1; index >= 0; index --)
+    for (int index = nodes.size() - 1; index >= 0; index--)
     {
         delete nodes[index];
     }
 }
+
+template <class Type>
+N_AryTreeNode<Type> * N_AryTreeNode<Type> :: getRoot()
+{
+    return root;
+}
+
+template <class Type>
+vector<N_AryTreeNode<Type>*> N_AryTreeNode<Type> :: get Nodes()
+{
+    return nodes;
+}
+
+template <class Type>
+    int N_AryTreeNode<Type> :: setRoot(N_AryTreeNode<Type> * root)
+{
+    this->root = root;
+}
+    
+template <class Type>    void N_AryTreeNode<Type> :: addChild(Type data)
+{
+    N_AryTreeNode<Type> * node = new N_AryTreeNode<Type>(data);
+        nodes.push_back(node);
+}
+
+
+
+
+
+
 #endif /* N_AryTreeNode_hpp */

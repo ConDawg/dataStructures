@@ -19,6 +19,8 @@
 		AAA61A72204DC541003D5BAA /* RecursionTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAA61A70204DC541003D5BAA /* RecursionTester.cpp */; };
 		AAB3DDCF206D6BF300976867 /* BinaryTreeTester.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAB3DDCD206D6BF300976867 /* BinaryTreeTester.cpp */; };
 		AAD52E2920473EA300E91796 /* TestingStacksAndQueues.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAD52E2720473EA300E91796 /* TestingStacksAndQueues.cpp */; };
+		AAD9DE2020939FBB000935D7 /* HashNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DE1E20939FBB000935D7 /* HashNode.cpp */; };
+		AAD9DE232093A175000935D7 /* Hashtable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAD9DE212093A175000935D7 /* Hashtable.cpp */; };
 		AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE4BCF9204490EF00890379 /* DoubleNode.cpp */; };
 		AAE4BCFE20449A2300890379 /* CircularList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAE4BCFC20449A2300890379 /* CircularList.cpp */; };
 		AAF7E9972060367D008D2A7F /* Graph.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAF7E9952060367D008D2A7F /* Graph.cpp */; };
@@ -73,6 +75,10 @@
 		AAB3DDCE206D6BF300976867 /* BinaryTreeTester.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BinaryTreeTester.hpp; sourceTree = "<group>"; };
 		AAD52E2720473EA300E91796 /* TestingStacksAndQueues.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = TestingStacksAndQueues.cpp; sourceTree = "<group>"; };
 		AAD52E2820473EA300E91796 /* TestingStacksAndQueues.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = TestingStacksAndQueues.hpp; sourceTree = "<group>"; };
+		AAD9DE1E20939FBB000935D7 /* HashNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = HashNode.cpp; sourceTree = "<group>"; };
+		AAD9DE1F20939FBB000935D7 /* HashNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = HashNode.hpp; sourceTree = "<group>"; };
+		AAD9DE212093A175000935D7 /* Hashtable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Hashtable.cpp; sourceTree = "<group>"; };
+		AAD9DE222093A175000935D7 /* Hashtable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Hashtable.hpp; sourceTree = "<group>"; };
 		AAE4BCF9204490EF00890379 /* DoubleNode.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DoubleNode.cpp; sourceTree = "<group>"; };
 		AAE4BCFA204490EF00890379 /* DoubleNode.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DoubleNode.hpp; sourceTree = "<group>"; };
 		AAE4BCFC20449A2300890379 /* CircularList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CircularList.cpp; sourceTree = "<group>"; };
@@ -169,6 +175,10 @@
 				AA97AEC2206AC11300F65C12 /* BinaryTreeNode.cpp */,
 				AA97AEC3206AC11300F65C12 /* BinaryTreeNode.hpp */,
 				AA14C8A9208E50DA002C47F3 /* N_AryTreeNode.hpp */,
+				AAD9DE1E20939FBB000935D7 /* HashNode.cpp */,
+				AAD9DE1F20939FBB000935D7 /* HashNode.hpp */,
+				AAD9DE212093A175000935D7 /* Hashtable.cpp */,
+				AAD9DE222093A175000935D7 /* Hashtable.hpp */,
 			);
 			path = Node;
 			sourceTree = "<group>";
@@ -316,6 +326,7 @@
 				AA5F8EF0203CA24700C629F9 /* LinkedList.cpp in Sources */,
 				AAFE68C9202246D10092AEA5 /* Timer.cpp in Sources */,
 				AA49CF1E2065736C00F55D37 /* GraphTester.cpp in Sources */,
+				AAD9DE232093A175000935D7 /* Hashtable.cpp in Sources */,
 				AA97AEC4206AC11300F65C12 /* BinaryTreeNode.cpp in Sources */,
 				AAE4BCFB204490EF00890379 /* DoubleNode.cpp in Sources */,
 				AA95981F202A441E00F30EE7 /* Node.cpp in Sources */,
@@ -330,6 +341,7 @@
 				AAFE68D220224FD20092AEA5 /* FileController.cpp in Sources */,
 				AA95981B202A33AD00F30EE7 /* ArrayTester.cpp in Sources */,
 				AA7992B3205AE99B00601C17 /* SortingTester.cpp in Sources */,
+				AAD9DE2020939FBB000935D7 /* HashNode.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
