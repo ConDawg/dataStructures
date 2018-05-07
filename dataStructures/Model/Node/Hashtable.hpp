@@ -10,6 +10,9 @@
 #define Hashtable_hpp
 
 #include "/Users/cjoh9027/Documents/C++/dataStructures/dataStructures/Model/Node/HashNode.hpp"
+#include <cmath>
+#include <assert.h>
+
 
 template<class Type>
 class Hashtable
@@ -30,9 +33,30 @@ public:
     Hashtable();
     ~Hashtable();
     
+    HashNode<Type> * get(long index);
+    bool contains(HashNode<Type> * value);
+    
     void insert(Type data);
     long getSize();
 };
+
+template <class Type>
+HashNode<Type> * Hashtable<Type> :: get(long index)
+{
+    assert(index < capacity);
+    return internalStorage[index];
+}
+
+template <class Type>
+bool Hashtable<Type> :: contains (HashNode<Type> * value)
+{
+    if (internalStorage[findPosition(value)]->getData() == value->getData())
+    {
+        return true;
+    }
+    
+    return false;
+}
 
 template <class Type>
 Hashtable<Type> :: Hashtable()
@@ -156,7 +180,7 @@ void Hashtable<Type> :: insert(Type value)
     }
 }
 
-
+                                          
 
 
 
